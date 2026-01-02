@@ -296,29 +296,26 @@ export default function Home() {
 
                 // --- 8 ---
                 {
-                  year: "Sep 2025 – Present",
+                  year: "Sep 2025 – Nov 2025",
                   title: "Learning by Rebuilding – Strengthening My Foundation",
                   descriptionStanzas: [
-                    "After graduation, I wanted to understand why my projects worked — not just how I got them to run. So I began revisiting my older systems, this time rebuilding everything from the ground up using pure HTML, CSS, and JavaScript. No AI shortcuts. No frameworks. Just fundamentals.",
-                    "Starting with my old Inventory Management System, I focused on building cleaner code, better structure, and more responsive layouts. It felt like rediscovering web development through a new lens — applying everything I’ve learned and unlearning my old habits.",
-                    "At the same time, I began creating this very portfolio using React and Tailwind CSS, integrating animation and component logic while experimenting with design and storytelling. I used AI as a creative assistant — not as a crutch — helping me refine structure and improve my understanding of front-end architecture.",
-                    "This phase became more than just “relearning.” It’s been about maturity — writing code with intention, designing with empathy, and building a personal workflow that feels truly my own.",
+                    "This phase is my introduction to React. I didn’t follow a structured learning path — I mostly winged it and learned things as I needed them while building this portfolio.",
+                    "The project involved a lot of experimenting, guessing, and fixing things after they broke. I focused on making things work first, then slowly understanding why they worked.",
+                    "I used React and Tailwind CSS without fully knowing everything yet, treating this portfolio as a sandbox rather than a polished or best-practice project.",
+                    "Overall, this stage reflects my early exposure to React — incomplete, messy at times, but a starting point that pushed me to keep learning."
                   ],
+
 
                   takeaways: [
-                    "Strengthened my core understanding of HTML, CSS, and JavaScript through rebuilding past projects.",
-                    "Learned to approach front-end development with structured logic and scalable design principles.",
-                    "Developed a deeper appreciation for responsive design, accessibility, and user-centered layouts.",
-                    "Improved my ability to plan, design, and execute projects independently — from concept to deployment.",
-                    "Practiced balancing creativity and technical discipline by using AI tools for insight, not dependency.",
+                    "Got initial exposure to React through hands-on experimentation.",
+                    "Learned basic component structure and how JSX works.",
+                    "Became comfortable trying things without fully understanding them at first.",
+                    "Identified gaps in my React knowledge that I need to improve on.",
+                    "Used this portfolio as a learning playground rather than a finished product."
                   ],
 
+
                   subProjects: [
-                      {
-                        label: "",
-                        tech: ["HTML", "CSS", "JavaScript"],
-                        github: "https://github.com/sohj-abellera/basc-portal"
-                      },
                       {
                         label: "+",
                         tech: ["React", "Tailwind"],
@@ -327,20 +324,13 @@ export default function Home() {
                     ],
 
                   containerConfig: {
-                    bgImage: "/career-timeline-stuff/bg-tech.jpg",
-                    bgColor: "#12151c",
+                    bgImage: "/career-timeline-stuff/bg-ui.jpg",
+                    bgColor: "#000A0A",
                     slides: [
                       {
-                        title: "Rebuilding one of my thesis projects — applying best coding practices.",
-                        video: "career-timeline-stuff/sysarch.mp4",
-                        overlayImage: "career-timeline-stuff/basc.PNG",
-                        customId: "for-capstone-thesis",
-                      },
-                      {
-                        title: "My new portfolio, built while experimenting with React and Tailwind.",
-                        video: "career-timeline-stuff/sysarch.mp4",
+                        title: "My new portfolio, built while experimenting with React.",
+                        video: "career-timeline-stuff/portfolio.mp4",
                         overlayImage: "career-timeline-stuff/portfolio.PNG",
-                        customId: "for-capstone-thesis",
                       },
                     ],
                   },
