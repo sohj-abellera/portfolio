@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, type JSX } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { BookOpen, Star } from "lucide-react";
+import { BookOpen, Globe, Star } from "lucide-react";
 import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons"
@@ -108,6 +108,18 @@ export default function CareerTimeline({ sections }: { sections: Section[] }) {
                     )}
 
                     <div className="flex flex-wrap items-center gap-2">
+                      {proj.website && (
+                        <a
+                          href={proj.website}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 rounded-[6px] bg-white/2 border border-white/6 text-gray-300 px-5 py-1 xl:text-sm md:text-[12px] sm:text-sm text-[12px] font-medium font-montserrat"
+                        >
+                          <Globe size={14} />
+                          Visit Website
+                        </a>
+                      )}
+
                       {proj.github && (
                         <>
                           <a
@@ -143,6 +155,22 @@ export default function CareerTimeline({ sections }: { sections: Section[] }) {
                 ))
               ) : (
                 <div className="flex flex-wrap items-center gap-2 mb-4">
+                  {section.website && (
+                    <a
+                      href={section.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 rounded-[6px] bg-white/2 border border-white/6 text-gray-300 px-5 py-1 xl:text-sm md:text-[12px] sm:text-sm text-[12px] font-medium font-montserrat"
+                    >
+                      <Globe size={14} />
+                      Visit Website
+                    </a>
+                  )}
+
+                  {section.website && section.github && (
+                    <span className="px-1 text-lg text-gray-400 select-none">â€¢</span>
+                  )}
+
                   {section.github && (
                     <>
                       <a

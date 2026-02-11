@@ -336,6 +336,46 @@ export default function Home() {
                   },
                 },
 
+                // --- 9 ---
+                {
+                  year: "Dec 2025 – Present",
+                  title: "Portfolio v2 – Design-First Refactor and Structural Rebuild",
+                  descriptionStanzas: [
+                    "This version of my portfolio is an ongoing rebuild focused on improving structure, scalability, and overall design clarity.",
+                    "At this stage, the project prioritizes layout, visual consistency, and file organization rather than full interactivity.",
+                    "I applied what I learned about separating concerns and organizing components to make the codebase easier to maintain and extend.",
+                    "Performance considerations, especially for low-end mobile devices, are influencing design decisions early, even before full functionality is implemented."
+                  ],
+
+                  takeaways: [
+                    "Planned components and layouts with scalability in mind.",
+                    "Improved file and folder organization across the project.",
+                    "Focused on design clarity before adding interactivity.",
+                    "Became more intentional about performance constraints early in development.",
+                    "Learned to treat rebuilding as a structured process rather than a quick rewrite."
+                  ],
+
+                  subProjects: [
+                    {
+                      label: "v2 (WIP)",
+                      tech: ["React", "TypeScript", "Tailwind"],
+                      website: "https://sohj-abellera.github.io/portfolio-v2/",
+                      github: "https://github.com/sohj-abellera/portfolio-v2"
+                    },
+                  ],
+
+                  containerConfig: {
+                    bgImage: "/career-timeline-stuff/bg-ui.jpg",
+                    bgColor: "#000A0A",
+                    slides: [
+                      {
+                        title: "Portfolio v2 — currently focused on design and structure.",
+                        video: "career-timeline-stuff/portfolio-v2.mp4",
+                        overlayImage: "career-timeline-stuff/portfolio-v2.PNG",
+                      },
+                    ],
+                  },
+                },
               ]}
             />
           </section>

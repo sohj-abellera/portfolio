@@ -49,6 +49,13 @@ export const techIconMap: Record<string, JSX.Element> = {
       className="w-4 h-4"
     />
   ),
+  TypeScript: (
+    <img
+      src="https://www.svgrepo.com/show/354478/typescript-icon.svg"
+      alt="TypeScript"
+      className="w-4 h-4"
+    />
+  ),
 }
 
 export default techIconMap

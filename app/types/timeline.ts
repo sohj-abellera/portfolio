@@ -13,6 +13,7 @@ export type ContainerConfig = {
 
 export type SubProject = {
   label?: string // optional (like "2nd Project")
+  website?: string
   github?: string
   tech?: string[]
 }
@@ -23,6 +24,7 @@ export type Section = {
   description?: string
   descriptionStanzas?: string[]
   takeaways?: string[]
+  website?: string
   github?: string
   tech?: string[]
   subProjects?: SubProject[] // new
