@@ -7,4 +7,4 @@ server/.env
 client/node_modules/
 client/dist/
 client/.env
-client/.vite/
+client/.vite/AGENTS.md
